@@ -1,6 +1,7 @@
-# Created by pohnsudakasee at 7/10/24
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Add target product test
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: Adding product to cart Verification
+    Given Open Target main page
+    When Search for watermelon
+    Then Adding watermelon in to cart
+    Then Verify product is in the cart

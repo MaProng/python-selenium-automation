@@ -1,6 +1,5 @@
-# Created by pohnsudakasee at 7/10/24
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Tests for search functionality
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: 'What can we help you find?' message in the search box is shown
+    Given Open target main page
+    Then Verify 'What can we help you find?' message in the search box is shown

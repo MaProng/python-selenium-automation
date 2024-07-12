@@ -1,6 +1,4 @@
-# Created by pohnsudakasee at 7/9/24
-Feature: # Enter feature name here
-  # Enter feature description here
-
-  Scenario: # Enter scenario name here
-    # Enter steps here
+Feature: Verify benefits in Target Circle
+  Scenario: Verify benefits in Target Circle
+    Given Open Target Circle page
+    Then Verify Target Circle has 10 benefits
