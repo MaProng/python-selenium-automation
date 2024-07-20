@@ -1,6 +1,5 @@
-# Created by pohnsudakasee at 7/20/24
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Tests for product page
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: User can select colors
+    Given Open target product A-91511634 page
+    Then Verify user can choose any colors
