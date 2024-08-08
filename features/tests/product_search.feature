@@ -1,7 +1,9 @@
-Feature: Test Scenarios for Search functionality
+Feature: Target search test
+  Scenario: User  can search for a coffee
+    Given Open Target main page
+    When Search for coffee
+    Then Verify search results are shown for coffee
+    Then Verify that URL has coffee
 
-  Scenario: User can search for a product
-    Given Open Google page
-    When Input Car into search field
-    And Click on search icon
-    Then Product results for Car are shown
+  Scenario: User can search for a tea
+    Given Open Target main page

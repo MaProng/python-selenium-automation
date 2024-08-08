@@ -1,6 +1,6 @@
-# Created by pohnsudakasee at 8/7/24
-Feature: # Enter feature name here
-  # Enter feature description here
-
-  Scenario: # Enter scenario name here
-    # Enter steps here
+Feature: Sign In Verification
+  Scenario: Verify logged out user nav to Sign In
+    Given Open Target main page
+    When Click on Sign in
+    When Click Sign in from dropdown
+    Then Verify Sign in form opened
